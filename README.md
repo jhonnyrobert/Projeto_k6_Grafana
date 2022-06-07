@@ -1,8 +1,6 @@
 # Projeto_k6_Grafana
  
-Aqui você encontra o material do curso [Conhecendo K6 para testes de carga](https://www.canva.com/design/DAE2Bq1NuC0/vwBWXw-0brjuGwMSE4iDgw/edit?utm_content=DAE2Bq1NuC0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
-
-
+Aqui você encontra o material do curso [Conhecendo K6 para testes de carga](https://github.com/jhonnyrobert/Projeto_k6_Grafana/blob/main/Doc/k6%20-%20tech.pdf)
 ## Dependências
 Abaixo encontrará as referências à outros projetos e dependências que utilizamos no curso. 
 
