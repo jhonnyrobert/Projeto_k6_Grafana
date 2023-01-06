@@ -10,6 +10,15 @@ Abaixo encontrará as referências à outros projetos e dependências que utiliz
 
 * [Docker-k6-grafana-influxDB](https://github.com/luketn/docker-k6-grafana-influxdb) - Repositório que permite configurar o influxdb como datasource para o K6 incluindo a visualização via Grafana.
 
+
+## Execução 
+
+Os comandos podem mudar se for executado no Mac/Linux, daí bastar remover uma das ->  /  <- do caminho relativo  ex: /scripts/stages.js
+
+1-Execute o comando -> docker-compose -f ./grafana/docker-compose.yml up -d influxdb grafana
+2-Execute o comando -> docker-compose -f ./grafana/docker-compose.yml run k6 run //scripts//stages.js
+3-Acesse a URL ->  http://localhost:3000/d/k6/k6-load-testing-results?orgId=1&from=now-30m&to=now&var-Measurement=All
+
 ## Indicadores
 
 * VUS -
